@@ -16,7 +16,9 @@ int main()
     if (result) {
         std::cout << "Successfully created order\n";
     }
-    
+
+    cout << "Press any key to exit...\n";
+    std::getchar();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
